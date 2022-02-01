@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/tasksFragment"
-        android:name="com.codinginflow.adapterexample.ui.stocks.StocksFragment"
+        android:name="com.codinginflow.stockviewer.ui.stocks.StocksFragment"
         android:label="fragment_tasks"
         tools:layout="@layout/fragment_stocks" />
 </navigation>

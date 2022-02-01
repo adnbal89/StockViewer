@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">AdapterExample</string>
+    <string name="app_name">Stock Viewer</string>
 
     <string name="addStocksIconDescription">Floating Action Button Icon</string>
 

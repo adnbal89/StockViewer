@@ -1,4 +1,4 @@
-package com.codinginflow.adapterexample.data
+package com.codinginflow.stockviewer.data
 
 import androidx.room.Dao
 

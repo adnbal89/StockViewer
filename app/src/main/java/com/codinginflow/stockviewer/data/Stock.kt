@@ -1,4 +1,4 @@
-package com.codinginflow.adapterexample.data
+package com.codinginflow.stockviewer.data
 
 import android.os.Parcelable
 import androidx.room.Entity

@@ -1,4 +1,4 @@
-package com.codinginflow.adapterexample
+package com.codinginflow.stockviewer
 
 import org.junit.Assert.assertEquals
 import org.junit.Test

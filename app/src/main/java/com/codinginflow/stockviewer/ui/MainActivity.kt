@@ -1,4 +1,4 @@
-package com.codinginflow.adapterexample.ui
+package com.codinginflow.stockviewer.ui
 
 import android.os.Bundle
 import android.os.PersistableBundle
