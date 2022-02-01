@@ -12,9 +12,9 @@ data class Stock(
     @PrimaryKey(autoGenerate = true)
     val id: Int = 0,
     val name: String,
-    val buyPrice: Float,
-    val currentPrice: Float,
-    val currentProfit: Float,
+    val checked: Boolean = false,
+    val buyPrice: Double,
+    val currentPrice: Double,
     val created: Long = System.currentTimeMillis()
 ) : Parcelable {
     val createDateFormatted: String
