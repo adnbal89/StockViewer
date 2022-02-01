@@ -12,5 +12,5 @@ dependencyResolutionManagement {
         mavenCentral()
     }
 }
-rootProject.name = "AdapterExample"
+rootProject.name = "Stock Viewer"
 include ':app'
