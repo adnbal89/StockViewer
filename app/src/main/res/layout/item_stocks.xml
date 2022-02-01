@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+
+    <CheckBox
+        android:id="@+id/check_box_to_be_deleted"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:minWidth="0dp"
+        android:minHeight="0dp" />
+
+    <TextView
+        android:id="@+id/text_view_stock_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/check_box_to_be_deleted"
+        android:layout_alignBottom="@+id/check_box_to_be_deleted"
+        android:layout_toEndOf="@+id/check_box_to_be_deleted"
+        android:ellipsize="end"
+        android:gravity="center_vertical"
+        android:maxLines="1"
+        android:text="Example Item"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/text_view_stock_buy_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/check_box_to_be_deleted"
+        android:layout_alignBottom="@+id/check_box_to_be_deleted"
+        android:layout_toEndOf="@+id/text_view_stock_name"
+        android:ellipsize="end"
+        android:gravity="center_vertical"
+        android:maxLines="1"
+        android:text="Example Item"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/text_view_stock_buy_actual_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/check_box_to_be_deleted"
+        android:layout_alignBottom="@+id/check_box_to_be_deleted"
+        android:layout_toEndOf="@+id/text_view_stock_buy_price"
+        android:ellipsize="end"
+        android:gravity="center_vertical"
+        android:maxLines="1"
+        android:text="Example Item"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/text_view_stock_actual_profit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/check_box_to_be_deleted"
+        android:layout_alignBottom="@+id/check_box_to_be_deleted"
+        android:layout_alignParentEnd="true"
+        android:ellipsize="end"
+        android:gravity="center_vertical"
+        android:maxLines="1"
+        android:text="Example Item"
+        android:textColor="@color/black" />
+
+
+</RelativeLayout>

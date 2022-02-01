@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">AdapterExample</string>
+
+    <string name="addStocksIconDescription">Floating Action Button Icon</string>
+
+
+</resources>
